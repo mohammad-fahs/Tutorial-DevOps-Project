@@ -29,7 +29,7 @@ public class TutorialController {
 	@Autowired
 	TutorialRepository tutorialRepository;
 
-	//check if it will trigger
+	//check if it will trigger the jenkins job!
 	@GetMapping("/tutorials")
 	public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required = false) String title) {
 		try {
