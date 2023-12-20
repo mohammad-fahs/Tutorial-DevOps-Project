@@ -9,7 +9,7 @@ const expect = chai.expect;
 // Set the base URL for your API
 const baseURL = 'http://localhost:6868/api';
 
-// Test for the POST request tesdt
+// Test for the POST request tesdt efwefw
 describe('POST /tutorials', () => {
   it('should create a new tutorial', async () => {
     // Define the request payload
