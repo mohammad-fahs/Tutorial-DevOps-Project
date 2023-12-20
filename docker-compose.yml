@@ -17,7 +17,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    build: ./tutorial-app\
+    build: ./tutorial-app
     networks:
       - test_mynetwork
     env_file: ./.env
