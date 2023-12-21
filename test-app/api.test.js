@@ -12,7 +12,7 @@ const baseURL = 'http://app:6868/api';
 // Test for the POST request
 describe('POST /tutorials', () => {
   it('should create a new tutorial', async () => {
-    // Define the request payload
+    // Define the request payload this is test
     const data = {
       title: 'first tutorial',
       description: 'this is the description of the first tutorial',
